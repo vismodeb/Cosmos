@@ -1,0 +1,122 @@
+@media all and (max-width: 1600px){
+    .check-forget2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media all and (max-width: 1400px){
+    .banner-area2 {
+        max-width: 543px;
+    }
+}
+@media all and (max-width: 1200px){
+    .form-area2 {
+        padding: 40px 40px;
+    }
+    .banner-area2 {
+        max-width: 423px;
+    }
+}
+@media all and (max-width: 991px){
+    .banner-area {
+        display: none;
+    }
+    .main-login-area {
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .check-forget2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .form-area form>input[type="email"] {
+        margin-bottom: 26px;
+    }
+    .logo-area img {
+        max-width: 300px;
+    }
+    .logo-area {
+        margin: 40px 0;
+    }
+}
+@media all and (max-width: 767px){
+    .form-heading h2 {
+        font-size: 35px;
+        margin-top: 0;
+    }
+    .form-heading p {
+        font-size: 27px;
+        margin-top: 5px;
+        padding-bottom: 32px;
+        margin-bottom: 43px;
+    }
+    .form-title p {
+        font-size: 30px;
+    }
+    .form-area form>input{
+        font-size: 16px;
+      }
+    .form-area form>input::placeholder{
+        font-size: 16px;
+      }
+      .button input {
+        font-size: 20px;
+    }
+    .check-forget2 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .form-heading p:after {
+        width: 70px;
+    }
+    .check-forget {
+        padding: 25px 0 100px 0;
+    }
+    .input-main{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .check-forget2 label {
+        max-width: 100%;
+    }
+    .button2 {
+        flex-direction: column;
+        gap: 17px;
+    }
+    .logo-area {
+        margin: 30px 0;
+    }
+    .logo-area img {
+        max-width: 260px;
+    }
+}
+@media all and (max-width: 575px){
+    .form-area {
+        padding: 22px 18px;
+    }
+    .check-forget .form-check-input {
+        height: 26px;
+        width: 26px;
+        margin-right: 8px;
+    }
+    .check-forget label {
+        font-size: 16px;
+    }
+    .check-forget a {
+        font-size: 16px;
+    }
+    .form-footer p {
+        font-size: 18px;
+    }
+    .form-footer p {
+        padding-top: 60px;
+    }
+    .form-footer-bottom p {
+        margin-top: 33px;
+    }
+    .logo-area img {
+        max-width: 220px;
+    }
+    
+}
+@media all and (max-width: 450px){
+    .form-heading p:after {
+        width: 50px;
+    }
+}
+@media all and (max-width: 375px){}
